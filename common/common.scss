@@ -71,7 +71,9 @@ div.parallax::-webkit-scrollbar {
     height: 12px; /*for horizontal scrollbars */
 }
 
-
+.static-faq div.contents > div > div{
+    display:none;
+}
  
 #stars{
     position: fixed;
