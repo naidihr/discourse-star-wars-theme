@@ -1,0 +1,31 @@
+{
+  "name": "Star Wars",
+  "component": false,
+  "license_url": null,
+  "about_url": null,
+  "authors": null,
+  "theme_version": null,
+  "minimum_discourse_version": null,
+  "maximum_discourse_version": null,
+  "assets": {
+    "Star_Wars_Yellow_Logo": "assets/Star_Wars_Yellow_Logo.png",
+    "Star_Wars_original_opening_crawl_1977": "assets/Star_Wars_original_opening_crawl_1977.mp3",
+    "Star_Wars_original_opening_crawl_1977_mp3": "assets/Star_Wars_original_opening_crawl_1977_mp3.mp3",
+    "Star_Wars_original_opening_crawl_1977_ogg": "assets/Star_Wars_original_opening_crawl_1977_ogg.ogg"
+  },
+  "color_schemes": {
+    "Dark": {
+      "primary": "eeeeee",
+      "secondary": "222222",
+      "tertiary": "ced647",
+      "quaternary": "c14924",
+      "header_background": "0E2F3F",
+      "header_primary": "dddddd",
+      "highlight": "a87137",
+      "danger": "e45735",
+      "success": "1ca551",
+      "love": "fa6c8d"
+    }
+  },
+  "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
+}

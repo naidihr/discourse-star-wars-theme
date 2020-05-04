@@ -1,0 +1,38 @@
+<div id='stars'>
+<div id='stars1'></div>
+<div id='stars2'></div>
+<div id='stars3'></div>
+</div>
+<script type="text/discourse-plugin" version="0.8">
+api.onPageChange(() => {
+
+  $(document).ready(function(){
+  // Add smooth scrolling to all links
+  selector = '.static-faq div.contents > div > div';
+  if ($(selector).length){
+    var intro = '<div class="star-wars-intro">A long time ago in a galaxy far, far away...</div>'; 
+    var audio = '<audio autoplay>';
+    audio += '<source src="' + settings.theme_uploads.Star_Wars_original_opening_crawl_1977_ogg + '" type="audio/ogg" />';
+    audio += '<source src="' + settings.theme_uploads.Star_Wars_original_opening_crawl_1977_mp3 + '" type="audio/mpeg" />';
+    audio += '</audio>';  
+    var logo= '<div class="logoContainer"><img class="logo" src="' + settings.theme_uploads.Star_Wars_Yellow_Logo + '"/></div>';
+
+    $(selector).hide().addClass("parallax");
+    $('body').append(logo).append(intro);    
+  
+    $('div.star-wars-intro').append(audio);
+    $('div.star-wars-intro').fadeIn('slow').delay(2000).fadeOut('slow');
+    $('div.logoContainer').hide(0).delay(5000).show(0).addClass('shrink');
+
+    var str="<div class='scrollpad'></div>"
+    $('div.parallax').prepend(str).append(str);
+    $('div.parallax'). delay(4000).show();  
+    $('div.parallax').animate({
+        scrollTop: 5000
+        }, 100000);
+
+   }   
+  });  
+
+});
+</script>
