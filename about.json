@@ -10,7 +10,9 @@
   "assets": {
     "Star_Wars_Yellow_Logo": "assets/Star_Wars_Yellow_Logo.png",
     "Star_Wars_original_opening_crawl_1977_mp3": "assets/Star_Wars_original_opening_crawl_1977_mp3.mp3",
-    "Star_Wars_original_opening_crawl_1977_ogg": "assets/Star_Wars_original_opening_crawl_1977_ogg.ogg"
+    "Star_Wars_original_opening_crawl_1977_ogg": "assets/Star_Wars_original_opening_crawl_1977_ogg.ogg",
+    "greenLightsaber": "assets/greenLightsaber.png",
+    "powerOn": "assets/powerOn.wav"
   },
   "color_schemes": {
     "Dark": {
@@ -18,7 +20,7 @@
       "secondary": "222222",
       "tertiary": "ced647",
       "quaternary": "c14924",
-      "header_background": "0E2F3F",
+      "header_background": "0e2f3f",
       "header_primary": "dddddd",
       "highlight": "a87137",
       "danger": "e45735",
