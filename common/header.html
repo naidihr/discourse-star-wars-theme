@@ -14,7 +14,7 @@ api.onPageChange(() => {
     $("html").css("cursor","auto");
     
     //append star wars crawl to FAQ page
-    selector = 'body.static-faq div[itemprop="mainContentOfPage"]';
+    var selector = 'body.static-faq div[itemprop="mainContentOfPage"]';
     if ($(selector).length && !$('div.star-wars-intro').length){
         
     var crawl='<div class="parallax">Test</div>';
