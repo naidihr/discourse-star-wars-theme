@@ -32,6 +32,7 @@ api.onPageChange(() => {
     var logo= '<div class="logoContainer"><img class="logo" src="' + settings.theme_uploads.Star_Wars_Yellow_Logo + '"/></div>';
     
     $('section.container').hide(); 
+    $(selector).hide();
     
     $('div.starwars').append(logo).append(intro).append(crawl).show();   
     $('div.star-wars-intro').append(audioLS);    
@@ -53,7 +54,7 @@ api.onPageChange(() => {
             setTimeout(function(){
                 stopJump();
                 $('div.parallax').hide();
-                //$(selector).show();  
+                $(selector).show();  
                 $('section.container').show();  
                 $("html").css("cursor","auto");
             },6000);
