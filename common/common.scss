@@ -187,10 +187,10 @@ div.b-header {
 .wipe{
   white-space: nowrap;
   overflow: hidden;
-  width: 0;
-  animation: linearwipe 1s steps(10, end); 
+  width: 100%;
+  animation: linearwipe 1s steps(100, end); 
 }
 
 @keyframes linearwipe{ 
-  from { width: 100%; } 
+  from { width: 0%; } 
 }  
